@@ -1,0 +1,22 @@
+{
+  "name": "weatherwebapi",
+  "version": "1.0.0",
+  "description": "\"# WeatherWebApi\"",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "start:dev": "nodemon",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiTingLee/WeatherWebApi.git"
+  },
+  "author": "Eric Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YiTingLee/WeatherWebApi/issues"
+  },
+  "homepage": "https://github.com/YiTingLee/WeatherWebApi#readme"
+}

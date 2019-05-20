@@ -35,5 +35,3 @@ function convertDataForDB({ cwbopendata }) {
   })
   return result;
 }
-
-getWeatherData();

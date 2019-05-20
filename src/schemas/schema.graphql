@@ -1,0 +1,25 @@
+type Query {
+  getWeather(req: WeatherReq!): WeatherRes!
+}
+
+input WeatherReq {
+  time: String!
+  location: Location!
+}
+
+type WeatherRes {
+  location: String!
+  startTime: String!
+  endTime: String!
+  wx: String!
+  maxT: Int!
+  minT: Int!
+  ci: String!
+  pop: Int!
+}
+
+enum Location {
+  TAIPEI
+  NEWTAIPEI
+  TAOYUAN
+}

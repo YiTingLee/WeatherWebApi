@@ -1,7 +1,8 @@
 # WeatherWebApi
 
  - use nodejs, graphql, mongodb, and weather open data to build a weather webAPI.
- - need to install typescript, node, nodemon on your machine.
+ - need to install typescript, node, nodemon, and mongodb on your machine.
+ - run mongodb on port 27017
 
 ```
 git clone https://github.com/YiTingLee/WeatherWebApi.git
